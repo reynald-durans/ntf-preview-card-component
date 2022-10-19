@@ -1,0 +1,28 @@
+// Primary Colors
+
+$soft_blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+// Neutral Colors
+
+$very_dark_blue_main_BG: hsl(217, 54%, 11%);
+$very_dark_blue_card_BG: hsl(216, 50%, 16%);
+$very_dark_blue_line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+// Body Copy
+
+$font_size_paragraph: 18px;
+
+// Font
+$font: 'Outfit', sans-serif;
+
+// family: [Outfit](https://fonts.google.com/specimen/Outfit)
+// weights: 300, 400, 600
+
+@mixin font-style ($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+

@@ -1,0 +1,11 @@
+@import 'variables';
+
+html, body {
+  font-family: $font;
+  color: $white;
+}
+
+.main_container {
+  background-color: $very_dark_blue_main_BG;
+  height: 100vh;
+}

@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  font-family: "Outfit", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.main_container {
+  background-color: hsl(217deg, 54%, 11%);
+  height: 100vh;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_container .card {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  background-color: hsl(216deg, 50%, 16%);
+  width: 325px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.main_container .card__img {
+  grid-column: 1/span 2;
+  width: 275px;
+  border-radius: 10px;
+}
+.main_container .card__title {
+  grid-column: 1/span 2;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.main_container .card__paragraph {
+  grid-column: 1/span 2;
+  color: hsl(215deg, 51%, 70%);
+  line-height: 25px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.main_container .card__cripto {
+  grid-column: 1;
+  color: hsl(178deg, 100%, 50%);
+}
+.main_container .card__cripto::before {
+  content: url("../../images/icon-ethereum.svg");
+  margin-right: 8px;
+}
+.main_container .card__time {
+  grid-column: 2;
+  justify-self: flex-end;
+  color: hsl(215deg, 51%, 70%);
+}
+.main_container .card__time::before {
+  content: url("../../images/icon-clock.svg");
+  margin: 8px;
+}
+.main_container .card__division {
+  grid-column: 1/span 2;
+  border-bottom: 1px solid hsl(215deg, 51%, 70%);
+  opacity: 20%;
+}
+.main_container .card .card__footer {
+  grid-column: 1/span 2;
+  display: flex;
+}
+.main_container .card .card__footer .footer__img--profile {
+  width: 35px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.main_container .card .card__footer .footer__profile--p {
+  color: hsl(215deg, 51%, 70%);
+  align-self: center;
+}
+.main_container .card .card__footer .footer__profile--p .name {
+  color: hsl(0deg, 0%, 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
