@@ -37,7 +37,7 @@
       grid-column: 1;
       color: $cyan;
       &::before {
-        content: url("../../images/icon-ethereum.svg");
+        content: url(./../../images/icon-ethereum.svg);
         margin-right: 8px;
       }
     }
@@ -47,7 +47,7 @@
       color: $soft_blue;
       // text-align: end;
       &::before {
-        content: url("../../images/icon-clock.svg");
+        content: url(./../../images/icon-clock.svg);
         margin: 8px;
       }
     }
