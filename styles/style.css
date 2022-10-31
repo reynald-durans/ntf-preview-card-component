@@ -96,7 +96,7 @@ html, body {
   color: hsl(178deg, 100%, 50%);
 }
 .main_container .card__cripto::before {
-  content: url(./../../images/icon-ethereum.svg);
+  content: url(../images/icon-ethereum.svg);
   margin-right: 8px;
 }
 .main_container .card__time {
@@ -105,7 +105,7 @@ html, body {
   color: hsl(215deg, 51%, 70%);
 }
 .main_container .card__time::before {
-  content: url(./../../images/icon-clock.svg);
+  content: url(../images/icon-clock.svg);
   margin: 8px;
 }
 .main_container .card__division {
